@@ -6,6 +6,7 @@ rm(list = ls())
 library(tidyverse)
 library(scales)
 library(lubridate)
+library(readxl)
 
 # Load data
 Labor_Market_Data <- read_excel("~/Library/CloudStorage/OneDrive-DrexelUniversity/Fed Challenge 2025/Skeleton/Labor Market - Data.xlsx", sheet = "Wage Growth")
