@@ -5,6 +5,7 @@ rm(list = ls())
 library(ggplot2)
 library(dplyr)
 library(lubridate)
+library(readxl)
 
 # Load data
 Labor_Market_Data <- read_excel("~/Library/CloudStorage/OneDrive-DrexelUniversity/Fed Challenge 2025/Skeleton/Labor Market - Data.xlsx", sheet = "Beveridge Curve")
